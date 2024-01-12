@@ -1,0 +1,16 @@
+.ingredient-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ingredient-img {
+  width: 150px;
+  height: 150px;
+}
+
+.ingredient-clicked-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
