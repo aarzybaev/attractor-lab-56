@@ -39,7 +39,7 @@ function App() {
   };
 
   const getPrice = ():number => {
-    let amount = 0;
+    let amount = 30;
     ingredients.forEach((item : {name: string; count: number}) => {
       const name = item.name;
       const count = item.count;
